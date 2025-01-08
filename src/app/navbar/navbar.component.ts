@@ -7,16 +7,13 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.css'
 })
-export class NavbarComponent {
+export class NavbarComponent  {
 
-  navbarfixed:boolean=false;
-  @HostListener('window.scroll',['$event']) onscroll(){
-    if(window.scrollY>0){
-      this.navbarfixed=true
-    }
-    else{
-      this.navbarfixed=false
-    }
+  isScrolling: boolean = false;
+
+  @HostListener('window:scroll', [])
+  onWindowScroll() {
+    this.isScrolling = window.scrollY > 0;
   }
 
 }
