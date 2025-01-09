@@ -1,0 +1,23 @@
+
+.form-control:focus {
+    border-color: #e1e3e4;
+  }
+  .top-40 {
+    top: 40px !important;
+  }
+  .my-btn {
+    background-color: #1abc9c;
+    color: #fff;
+    padding: 5px 15px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+  }
+  label {
+    color: #1abc9c;
+    transition: 0.6s;
+  }
+
+  
+  
