@@ -7,11 +7,11 @@ import { HomeComponent } from './home/home.component';
 
 export const routes: Routes = [
     {path :'',redirectTo:'home',pathMatch:'full'},
-    {path:'home',component:HomeComponent,title:'home page'},
-    {path:'about',component:AboutComponent,title:'about page'},
-    {path:'portfolio',component:PortfolioComponent,title:'portfolio page'},
-    {path:'contact',component:ContactComponent,title:'contact page'},
-    {path:'**', component:NotfoundComponent ,title:'notfound page'},
+    {path:'home',component:HomeComponent,title:'Home Page'},
+    {path:'about',component:AboutComponent,title:'About Page'},
+    {path:'portfolio',component:PortfolioComponent,title:'Portfolio Page'},
+    {path:'contact',component:ContactComponent,title:'Contact Page'},
+    {path:'**', component:NotfoundComponent ,title:'Notfound Page'},
 
  
 ];
