@@ -1,7 +1,7 @@
-.portfolio i{
-    color: rgb(44, 62, 80) !important;
-}
 
+.portfolio .name i{
+  width: 150px !important;
+}
 figcaption {
     position: absolute;
     top: 0;

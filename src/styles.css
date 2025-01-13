@@ -66,9 +66,6 @@
     background-color: #1ABC9C;
     margin-top: 86px; min-height: calc(-106px + 100vh)
 }
-.portfolio i{
-    display: none;
-}
 
 .portfolio .layer{
     transition: all 1s ease;
